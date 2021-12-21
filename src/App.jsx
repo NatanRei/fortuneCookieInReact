@@ -7,7 +7,7 @@ import Quote from './components/Quote';
 const App = () => {
 
   const [ fraseEscolhida, setFraseEscolhida ] = useState('');
-  const [ frase, setFrase ] = useState([
+  const [ frase ] = useState([
   'Siga os bons e aprenda com eles.', 
   'O bom-senso vale mais do que muito conhecimento.', 
   'O riso é a menor distância entre duas pessoas.', 
